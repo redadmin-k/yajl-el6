@@ -1,0 +1,1834 @@
+INFO buildroot.py:704:  Mock Version: 6.9
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/results
+INFO buildroot.py:321:  calling preinit hooks
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/centos-6-x86_64-bootstrap/root_cache/
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/centos-6-x86_64-bootstrap/yum_cache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/centos-6-x86_64-bootstrap/dnf_cache
+DEBUG buildroot.py:760:  create skeleton dirs
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/dbus
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/tmp/ccache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/dnf/vars
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/sys
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/dev/mapper
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64-bootstrap/root/dev/mapper
+DEBUG buildroot.py:904:  kernel version == 4.18.0-553.187.1.el8_10.x86_64
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/fstab
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/yum/yum.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/dnf/dnf.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/log/yum.log
+DEBUG buildroot.py:335:  rootdir = /var/lib/mock/centos-6-x86_64-bootstrap/root
+DEBUG buildroot.py:336:  resultdir = /var/lib/mock/centos-6-x86_64-bootstrap/results
+DEBUG package_manager.py:64:  searching for 'yum' package manager or alternatives
+INFO buildroot.py:184:  Package manager yum detected and used (fallback)
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/mock
+DEBUG package_manager.py:406:  copying CA trust dir into chroot: /etc/pki/ca-trust => /etc/pki/ca-trust
+DEBUG file_util.py:191:  Updating files in /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/./extracted
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/./source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/edk2
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/java
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/openssl
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/pem
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/source/anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/pki/ca-trust/source/blacklist
+DEBUG package_manager.py:406:  copying CA trust dir into chroot: /usr/share/pki/ca-trust-source => /usr/share/pki/ca-trust-source
+DEBUG file_util.py:191:  Updating files in /var/lib/mock/centos-6-x86_64-bootstrap/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/usr/share/pki/ca-trust-source/./anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/usr/share/pki/ca-trust-source/./blacklist
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/usr/share
+DEBUG package_manager.py:390:  Copying /usr/share/distribution-gpg-keys to the bootstrap chroot
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['cp', '-a', '/usr/share/distribution-gpg-keys', '/var/lib/mock/centos-6-x86_64-bootstrap/root/usr/share'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc/yum/pluginconf.d
+DEBUG package_manager.py:634:  configure yum
+DEBUG package_manager.py:645:  configure yum priorities
+DEBUG package_manager.py:647:  configure yum rhnplugin
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/proc
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/proc
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/sys
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/sys
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/dev/shm
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/dev/pts
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/centos-6-x86_64-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.fitzax6m', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/sys/fs/selinux
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/yum
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-6-x86_64-bootstrap/yum_cache', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/dnf
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-6-x86_64-bootstrap/dnf_cache', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/root/mock-localrepo
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/root/mock-localrepo', '/var/lib/mock/centos-6-x86_64-bootstrap/root/root/mock-localrepo'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/etc
+DEBUG buildroot.py:39:  method _cleanup_homedir skipped in bootstrap
+DEBUG buildroot.py:39:  method _setup_build_dirs skipped in bootstrap
+DEBUG buildroot.py:39:  method _make_users skipped in bootstrap
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64-bootstrap/root/.initialized
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/result
+INFO buildroot.py:321:  calling preinit hooks
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/centos-6-x86_64/root_cache/
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/tar', '--use-compress-program', 'pigz', '-xf', '/var/cache/mock/centos-6-x86_64/root_cache/cache.tar.gz', '-C', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./proc
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./proc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./sys
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./sys
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./dev
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./dev
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./tmp/ccache
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./tmp/ccache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./var/cache/yum
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./var/cache/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./var/cache/dnf
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./var/cache/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/./var/log
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/./var/log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/centos-6-x86_64/yum_cache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/centos-6-x86_64/dnf_cache
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/usr/bin/lscpu'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  Architecture:        x86_64
+DEBUG util.py:537:  CPU op-mode(s):      32-bit, 64-bit
+DEBUG util.py:537:  Byte Order:          Little Endian
+DEBUG util.py:537:  CPU(s):              4
+DEBUG util.py:537:  On-line CPU(s) list: 0-3
+DEBUG util.py:537:  Thread(s) per core:  1
+DEBUG util.py:537:  Core(s) per socket:  1
+DEBUG util.py:537:  Socket(s):           4
+DEBUG util.py:537:  NUMA node(s):        1
+DEBUG util.py:537:  Vendor ID:           GenuineIntel
+DEBUG util.py:537:  BIOS Vendor ID:      QEMU
+DEBUG util.py:537:  CPU family:          6
+DEBUG util.py:537:  Model:               190
+DEBUG util.py:537:  Model name:          Intel(R) N150
+DEBUG util.py:537:  BIOS Model name:     pc-q35-8.2
+DEBUG util.py:537:  Stepping:            0
+DEBUG util.py:537:  CPU MHz:             806.400
+DEBUG util.py:537:  BogoMIPS:            1612.80
+DEBUG util.py:537:  Hypervisor vendor:   KVM
+DEBUG util.py:537:  Virtualization type: full
+DEBUG util.py:537:  L1d cache:           32K
+DEBUG util.py:537:  L1i cache:           32K
+DEBUG util.py:537:  L2 cache:            4096K
+DEBUG util.py:537:  L3 cache:            16384K
+DEBUG util.py:537:  NUMA node0 CPU(s):   0-3
+DEBUG util.py:537:  Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/free', '--human'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:                total        used        free      shared  buff/cache   available
+DEBUG util.py:537:  Mem:          3.6Gi       635Mi       1.6Gi        16Mi       1.4Gi       2.7Gi
+DEBUG util.py:537:  Swap:         4.0Gi       4.0Mi       4.0Gi
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/df', '-H', '-T', '/var/lib/mock/centos-6-x86_64/root', '/var/cache/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  Filesystem     Type  Size  Used Avail Use% Mounted on
+DEBUG util.py:537:  /dev/vda3      xfs    49G   25G   24G  51% /
+DEBUG util.py:537:  /dev/vda3      xfs    49G   25G   24G  51% /
+DEBUG util.py:688:  Child return code was: 0
+DEBUG buildroot.py:760:  create skeleton dirs
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/lib/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/lib/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/lib/dbus
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/cache/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/cache/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/tmp/ccache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/dnf/vars
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/yum.repos.d
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/sys
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/dev/pts
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/dev/shm
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/dev/mapper
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/dev/mapper
+DEBUG buildroot.py:904:  kernel version == 4.18.0-553.187.1.el8_10.x86_64
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64/root/etc/fstab
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64/root/etc/yum/yum.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64/root/etc/dnf/dnf.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64/root/var/log/yum.log
+DEBUG buildroot.py:335:  rootdir = /var/lib/mock/centos-6-x86_64/root
+DEBUG buildroot.py:336:  resultdir = /var/lib/mock/centos-6-x86_64/result
+INFO buildroot.py:184:  Package manager yum detected and used (direct choice)
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/mock
+DEBUG package_manager.py:406:  copying CA trust dir into chroot: /etc/pki/ca-trust => /etc/pki/ca-trust
+DEBUG file_util.py:191:  Updating files in /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/./extracted
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/./source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/extracted/edk2
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/extracted/java
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/extracted/openssl
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/extracted/pem
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/source/anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/pki/ca-trust/source/blacklist
+DEBUG package_manager.py:406:  copying CA trust dir into chroot: /usr/share/pki/ca-trust-source => /usr/share/pki/ca-trust-source
+DEBUG file_util.py:191:  Updating files in /var/lib/mock/centos-6-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/usr/share/pki/ca-trust-source/./anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/usr/share/pki/ca-trust-source/./blacklist
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/etc/yum/pluginconf.d
+DEBUG package_manager.py:634:  configure yum
+DEBUG package_manager.py:645:  configure yum priorities
+DEBUG package_manager.py:647:  configure yum rhnplugin
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/proc
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/proc
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/centos-6-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-6-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/sys
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/sys
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/centos-6-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-6-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/dev/shm
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/centos-6-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/dev/pts
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/centos-6-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.mapndq_2', '/var/lib/mock/centos-6-x86_64/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/sys/fs/selinux
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/centos-6-x86_64/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/cache/yum
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-6-x86_64/yum_cache', '/var/lib/mock/centos-6-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/var/cache/dnf
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-6-x86_64/dnf_cache', '/var/lib/mock/centos-6-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64/root/etc/resolv.conf
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['rpm', '-q', 'rpm', 'rpm-sequoia', 'python3-dnf', 'python3-dnf-plugins-core', 'yum', 'yum-utils', 'dnf5', 'dnf5-plugins'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  package rpm-sequoia is not installed
+DEBUG util.py:537:  package python3-dnf is not installed
+DEBUG util.py:537:  package python3-dnf-plugins-core is not installed
+DEBUG util.py:537:  yum-3.2.29-81.el6.centos.noarch
+DEBUG util.py:537:  yum-utils-1.1.30-41.el6.noarch
+DEBUG util.py:537:  package dnf5 is not installed
+DEBUG util.py:537:  package dnf5-plugins is not installed
+DEBUG util.py:688:  Child return code was: 5
+INFO package_manager.py:202:  Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.8.0-59.el6.x86_64
+  yum-3.2.29-81.el6.centos.noarch
+  yum-utils-1.1.30-41.el6.noarch
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG buildroot.py:723:  removing 4 rpm db files
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/rpm/__db.001
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/rpm/__db.002
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/rpm/__db.003
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/rpm/__db.004
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  findutils-4.4.2-9.el6.x86_64
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64
+DEBUG util.py:537:  pkgconfig-0.23-9.1.el6.x86_64
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  perl-Pod-Escapes-1.04-144.el6.x86_64
+DEBUG util.py:537:  perl-libs-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  perl-Module-Pluggable-3.90-144.el6.x86_64
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64
+DEBUG util.py:537:  file-5.04-30.el6.x86_64
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  tar-1.23-15.el6_8.x86_64
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64
+DEBUG util.py:537:  dbus-libs-1.2.24-9.el6.x86_64
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64
+DEBUG util.py:537:  perl-version-0.77-144.el6.x86_64
+DEBUG util.py:537:  perl-Pod-Simple-3.13-144.el6.x86_64
+DEBUG util.py:537:  perl-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  make-3.81-23.el6.x86_64
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  less-436-13.el6.x86_64
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64
+DEBUG util.py:537:  shadow-utils-4.1.5.1-5.el6.x86_64
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64
+DEBUG util.py:537:  ethtool-3.5-6.el6.x86_64
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  which-2.19-6.el6.x86_64
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/installation-homedir
+DEBUG package_manager.py:296:  ['/usr/bin/yum', '--installroot', '/var/lib/mock/centos-6-x86_64/root/', '-y', '--releasever', '6', 'update']
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/usr/bin/yum', '--installroot', '/var/lib/mock/centos-6-x86_64/root/', '-y', '--releasever', '6', 'update', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/centos-6-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:535:  Failed to set locale, defaulting to C
+DEBUG util.py:537:  Setting up Update Process
+DEBUG util.py:537:  base                                                                                                                                                                  | 3.7 kB     00:00     
+DEBUG util.py:537:  centos-sclo-rh                                                                                                                                                        | 3.0 kB     00:00     
+DEBUG util.py:537:  centos-sclo-sclo                                                                                                                                                      | 2.9 kB     00:00     
+DEBUG util.py:537:  extras                                                                                                                                                                | 3.4 kB     00:00     
+DEBUG util.py:537:  mock-localrepo                                                                                                                                                        | 3.0 kB     00:00 ... 
+DEBUG util.py:537:  No Packages marked for Update
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  findutils-4.4.2-9.el6.x86_64
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64
+DEBUG util.py:537:  pkgconfig-0.23-9.1.el6.x86_64
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  perl-Pod-Escapes-1.04-144.el6.x86_64
+DEBUG util.py:537:  perl-libs-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  perl-Module-Pluggable-3.90-144.el6.x86_64
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64
+DEBUG util.py:537:  file-5.04-30.el6.x86_64
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  tar-1.23-15.el6_8.x86_64
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64
+DEBUG util.py:537:  dbus-libs-1.2.24-9.el6.x86_64
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64
+DEBUG util.py:537:  perl-version-0.77-144.el6.x86_64
+DEBUG util.py:537:  perl-Pod-Simple-3.13-144.el6.x86_64
+DEBUG util.py:537:  perl-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  make-3.81-23.el6.x86_64
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  less-436-13.el6.x86_64
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64
+DEBUG util.py:537:  shadow-utils-4.1.5.1-5.el6.x86_64
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64
+DEBUG util.py:537:  ethtool-3.5-6.el6.x86_64
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  which-2.19-6.el6.x86_64
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir/build/originals
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/builddir/build/originals
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/builddir
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['userdel', '-f', 'mockbuild', '--prefix', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['groupdel', 'mock', '--prefix', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['groupadd', 'mock', '-g', '135', '--prefix', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['useradd', 'mockbuild', '-o', '-u', '0', '-g', '135', '-N', '-d', '/builddir', '--prefix', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:535:  useradd: warning: the home directory already exists.
+DEBUG util.py:535:  Not copying any file from skel directory into it.
+DEBUG util.py:535:  Creating mailbox file: File exists
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:29:  touching file: /var/lib/mock/centos-6-x86_64/root/.initialized
+DEBUG file_util.py:17:  ensuring that dir exists: /root/mock-localrepo
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/root/mock-localrepo
+DEBUG file_util.py:20:  created dir: /var/lib/mock/centos-6-x86_64/root/root/mock-localrepo
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/root/mock-localrepo
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/root/mock-localrepo', '/var/lib/mock/centos-6-x86_64/root/root/mock-localrepo'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/yajl-2.0.4-4.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  yajl                        ##################################################
+DEBUG util.py:688:  Child return code was: 0
+DEBUG buildroot.py:723:  removing 4 rpm db files
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.001
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.002
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.003
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.004
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qpl', '/builddir/build/originals/yajl-2.0.4-4.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  lloyd-yajl-2.0.4-0-gfee1ebe.tar.gz
+DEBUG util.py:537:  lloyd-yajl-2.0.4-pkgconfig-includedir.patch
+DEBUG util.py:537:  lloyd-yajl-2.0.4-pkgconfig-location.patch
+DEBUG util.py:537:  yajl.spec
+DEBUG util.py:688:  Child return code was: 0
+DEBUG buildroot.py:723:  removing 4 rpm db files
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.001
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.002
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.003
+DEBUG buildroot.py:728:  nuke_rpm_db: removing /var/lib/mock/centos-6-x86_64/root/var/lib/rpm/__db.004
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  findutils-4.4.2-9.el6.x86_64
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64
+DEBUG util.py:537:  pkgconfig-0.23-9.1.el6.x86_64
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  perl-Pod-Escapes-1.04-144.el6.x86_64
+DEBUG util.py:537:  perl-libs-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  perl-Module-Pluggable-3.90-144.el6.x86_64
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64
+DEBUG util.py:537:  file-5.04-30.el6.x86_64
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  tar-1.23-15.el6_8.x86_64
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64
+DEBUG util.py:537:  dbus-libs-1.2.24-9.el6.x86_64
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64
+DEBUG util.py:537:  perl-version-0.77-144.el6.x86_64
+DEBUG util.py:537:  perl-Pod-Simple-3.13-144.el6.x86_64
+DEBUG util.py:537:  perl-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  make-3.81-23.el6.x86_64
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  less-436-13.el6.x86_64
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64
+DEBUG util.py:537:  shadow-utils-4.1.5.1-5.el6.x86_64
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64
+DEBUG util.py:537:  ethtool-3.5-6.el6.x86_64
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  which-2.19-6.el6.x86_64
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: rpmbuild --help with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell True
+DEBUG util.py:537:  Usage: rpmbuild [OPTION...]
+DEBUG util.py:537:    --quiet
+DEBUG util.py:537:  Build options with [ <specfile> | <tarball> | <source package> ]:
+DEBUG util.py:537:    -bp                           build through %prep (unpack sources and apply
+DEBUG util.py:537:                                  patches) from <specfile>
+DEBUG util.py:537:    -bc                           build through %build (%prep, then compile)
+DEBUG util.py:537:                                  from <specfile>
+DEBUG util.py:537:    -bi                           build through %install (%prep, %build, then
+DEBUG util.py:537:                                  install) from <specfile>
+DEBUG util.py:537:    -bl                           verify %files section from <specfile>
+DEBUG util.py:537:    -ba                           build source and binary packages from
+DEBUG util.py:537:                                  <specfile>
+DEBUG util.py:537:    -bb                           build binary package only from <specfile>
+DEBUG util.py:537:    -bs                           build source package only from <specfile>
+DEBUG util.py:537:    -tp                           build through %prep (unpack sources and apply
+DEBUG util.py:537:                                  patches) from <tarball>
+DEBUG util.py:537:    -tc                           build through %build (%prep, then compile)
+DEBUG util.py:537:                                  from <tarball>
+DEBUG util.py:537:    -ti                           build through %install (%prep, %build, then
+DEBUG util.py:537:                                  install) from <tarball>
+DEBUG util.py:537:    -ta                           build source and binary packages from <tarball>
+DEBUG util.py:537:    -tb                           build binary package only from <tarball>
+DEBUG util.py:537:    -ts                           build source package only from <tarball>
+DEBUG util.py:537:    --rebuild                     build binary package from <source package>
+DEBUG util.py:537:    --recompile                   build through %install (%prep, %build, then
+DEBUG util.py:537:                                  install) from <source package>
+DEBUG util.py:537:    --buildroot=DIRECTORY         override build root
+DEBUG util.py:537:    --clean                       remove build tree when done
+DEBUG util.py:537:    --nobuild                     do not execute any stages of the build
+DEBUG util.py:537:    --nodeps                      do not verify build dependencies
+DEBUG util.py:537:    --nodirtokens                 generate package header(s) compatible with
+DEBUG util.py:537:                                  (legacy) rpm[23] packaging
+DEBUG util.py:537:    --rmsource                    remove sources when done
+DEBUG util.py:537:    --rmspec                      remove specfile when done
+DEBUG util.py:537:    --short-circuit               skip straight to specified stage (only for c,i)
+DEBUG util.py:537:    --target=CPU-VENDOR-OS        override target platform
+DEBUG util.py:537:  Common options for all rpm modes and executables:
+DEBUG util.py:537:    -D, --define='MACRO EXPR'     define MACRO with value EXPR
+DEBUG util.py:537:    -E, --eval='EXPR'             print macro expansion of EXPR
+DEBUG util.py:537:    --macros=<FILE:...>           read <FILE:...> instead of default file(s)
+DEBUG util.py:537:    --nodigest                    don't verify package digest(s)
+DEBUG util.py:537:    --nosignature                 don't verify package signature(s)
+DEBUG util.py:537:    --rcfile=<FILE:...>           read <FILE:...> instead of default file(s)
+DEBUG util.py:537:    -r, --root=ROOT               use ROOT as top level directory (default: "/")
+DEBUG util.py:537:    --querytags                   display known query tags
+DEBUG util.py:537:    --showrc                      display final rpmrc and macro configuration
+DEBUG util.py:537:    --quiet                       provide less detailed output
+DEBUG util.py:537:    -v, --verbose                 provide more detailed output
+DEBUG util.py:537:    --version                     print the version of rpm being used
+DEBUG util.py:537:  Options implemented via popt alias/exec:
+DEBUG util.py:537:    --dbpath=DIRECTORY            use database in DIRECTORY
+DEBUG util.py:537:    --with=<option>               enable configure <option> for build
+DEBUG util.py:537:    --without=<option>            disable configure <option> for build
+DEBUG util.py:537:    --buildpolicy=<policy>        set buildroot <policy> (e.g. compress man
+DEBUG util.py:537:                                  pages)
+DEBUG util.py:537:  Help options:
+DEBUG util.py:537:    -?, --help                    Show this help message
+DEBUG util.py:537:    --usage                       Display brief usage message
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/installation-homedir
+DEBUG package_manager.py:296:  ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/centos-6-x86_64/root/', '--releasever', '6', '/var/lib/mock/centos-6-x86_64/root//builddir/build/SRPMS/yajl-2.0.4-4.el6.src.rpm']
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/centos-6-x86_64/root/', '--releasever', '6', '/var/lib/mock/centos-6-x86_64/root//builddir/build/SRPMS/yajl-2.0.4-4.el6.src.rpm', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/centos-6-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:535:  Failed to set locale, defaulting to C
+DEBUG util.py:537:  base                                                                                                                                                                  | 3.7 kB     00:00     
+DEBUG util.py:537:  centos-sclo-rh                                                                                                                                                        | 3.0 kB     00:00     
+DEBUG util.py:537:  centos-sclo-sclo                                                                                                                                                      | 2.9 kB     00:00     
+DEBUG util.py:537:  extras                                                                                                                                                                | 3.4 kB     00:00     
+DEBUG util.py:537:  mock-localrepo                                                                                                                                                        | 3.0 kB     00:00 ... 
+DEBUG util.py:537:  Getting requirements for yajl-2.0.4-4.el6.src
+DEBUG util.py:537:   --> cmake-2.8.12.2-4.el6.x86_64
+DEBUG util.py:537:  --> Running transaction check
+DEBUG util.py:537:  ---> Package cmake.x86_64 0:2.8.12.2-4.el6 will be installed
+DEBUG util.py:537:  --> Processing Dependency: libarchive.so.2()(64bit) for package: cmake-2.8.12.2-4.el6.x86_64
+DEBUG util.py:537:  --> Running transaction check
+DEBUG util.py:537:  ---> Package libarchive.x86_64 0:2.8.3-7.el6_8 will be installed
+DEBUG util.py:537:  --> Finished Dependency Resolution
+DEBUG util.py:537:  Dependencies Resolved
+DEBUG util.py:537:  =============================================================================================================================================================================================
+DEBUG util.py:537:   Package                                        Arch                                       Version                                            Repository                                Size
+DEBUG util.py:537:  =============================================================================================================================================================================================
+DEBUG util.py:537:  Installing:
+DEBUG util.py:537:   cmake                                          x86_64                                     2.8.12.2-4.el6                                     base                                     8.0 M
+DEBUG util.py:537:  Installing for dependencies:
+DEBUG util.py:537:   libarchive                                     x86_64                                     2.8.3-7.el6_8                                      base                                     127 k
+DEBUG util.py:537:  Transaction Summary
+DEBUG util.py:537:  =============================================================================================================================================================================================
+DEBUG util.py:537:  Install       2 Package(s)
+DEBUG util.py:537:  Total size: 8.1 M
+DEBUG util.py:537:  Installed size: 29 M
+DEBUG util.py:537:  Downloading Packages:
+DEBUG util.py:537:  Running rpm_check_debug
+DEBUG util.py:537:  Running Transaction Test
+DEBUG util.py:537:  Transaction Test Succeeded
+DEBUG util.py:537:  Running Transaction
+DEBUG util.py:537:    Installing : libarchive-2.8.3-7.el6_8.x86_64                                                                                                                                           1/2 
+DEBUG util.py:537:    Installing : cmake-2.8.12.2-4.el6.x86_64                                                                                                                                               2/2 
+DEBUG util.py:537:    Verifying  : cmake-2.8.12.2-4.el6.x86_64                                                                                                                                               1/2 
+DEBUG util.py:537:    Verifying  : libarchive-2.8.3-7.el6_8.x86_64                                                                                                                                           2/2 
+DEBUG util.py:537:  Installed:
+DEBUG util.py:537:    cmake.x86_64 0:2.8.12.2-4.el6                                                                                                                                                              
+DEBUG util.py:537:  Dependency Installed:
+DEBUG util.py:537:    libarchive.x86_64 0:2.8.3-7.el6_8                                                                                                                                                          
+DEBUG util.py:537:  Complete!
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  findutils-4.4.2-9.el6.x86_64
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64
+DEBUG util.py:537:  pkgconfig-0.23-9.1.el6.x86_64
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  perl-Pod-Escapes-1.04-144.el6.x86_64
+DEBUG util.py:537:  perl-libs-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  perl-Module-Pluggable-3.90-144.el6.x86_64
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64
+DEBUG util.py:537:  file-5.04-30.el6.x86_64
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  tar-1.23-15.el6_8.x86_64
+DEBUG util.py:537:  libarchive-2.8.3-7.el6_8.x86_64
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64
+DEBUG util.py:537:  dbus-libs-1.2.24-9.el6.x86_64
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64
+DEBUG util.py:537:  perl-version-0.77-144.el6.x86_64
+DEBUG util.py:537:  perl-Pod-Simple-3.13-144.el6.x86_64
+DEBUG util.py:537:  perl-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  make-3.81-23.el6.x86_64
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  less-436-13.el6.x86_64
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64
+DEBUG util.py:537:  shadow-utils-4.1.5.1-5.el6.x86_64
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64
+DEBUG util.py:537:  ethtool-3.5-6.el6.x86_64
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  which-2.19-6.el6.x86_64
+DEBUG util.py:537:  cmake-2.8.12.2-4.el6.x86_64
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  findutils-4.4.2-9.el6.x86_64
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64
+DEBUG util.py:537:  pkgconfig-0.23-9.1.el6.x86_64
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  perl-Pod-Escapes-1.04-144.el6.x86_64
+DEBUG util.py:537:  perl-libs-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  perl-Module-Pluggable-3.90-144.el6.x86_64
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64
+DEBUG util.py:537:  file-5.04-30.el6.x86_64
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  tar-1.23-15.el6_8.x86_64
+DEBUG util.py:537:  libarchive-2.8.3-7.el6_8.x86_64
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64
+DEBUG util.py:537:  dbus-libs-1.2.24-9.el6.x86_64
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64
+DEBUG util.py:537:  perl-version-0.77-144.el6.x86_64
+DEBUG util.py:537:  perl-Pod-Simple-3.13-144.el6.x86_64
+DEBUG util.py:537:  perl-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  make-3.81-23.el6.x86_64
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  less-436-13.el6.x86_64
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64
+DEBUG util.py:537:  shadow-utils-4.1.5.1-5.el6.x86_64
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64
+DEBUG util.py:537:  ethtool-3.5-6.el6.x86_64
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  which-2.19-6.el6.x86_64
+DEBUG util.py:537:  cmake-2.8.12.2-4.el6.x86_64
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64/root/installation-homedir
+DEBUG package_manager.py:296:  ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/centos-6-x86_64/root/', '--releasever', '6', '/var/lib/mock/centos-6-x86_64/root//builddir/build/SRPMS/yajl-2.0.4-4.el6.src.rpm']
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/centos-6-x86_64/root/', '--releasever', '6', '/var/lib/mock/centos-6-x86_64/root//builddir/build/SRPMS/yajl-2.0.4-4.el6.src.rpm', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/centos-6-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:535:  Failed to set locale, defaulting to C
+DEBUG util.py:537:  base                                                                                                                                                                  | 3.7 kB     00:00     
+DEBUG util.py:537:  centos-sclo-rh                                                                                                                                                        | 3.0 kB     00:00     
+DEBUG util.py:537:  centos-sclo-sclo                                                                                                                                                      | 2.9 kB     00:00     
+DEBUG util.py:537:  extras                                                                                                                                                                | 3.4 kB     00:00     
+DEBUG util.py:537:  mock-localrepo                                                                                                                                                        | 3.0 kB     00:00 ... 
+DEBUG util.py:537:  Getting requirements for yajl-2.0.4-4.el6.src
+DEBUG util.py:537:   --> Already installed : cmake-2.8.12.2-4.el6.x86_64
+DEBUG util.py:537:  No uninstalled build requires
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  findutils-4.4.2-9.el6.x86_64
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64
+DEBUG util.py:537:  pkgconfig-0.23-9.1.el6.x86_64
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  perl-Pod-Escapes-1.04-144.el6.x86_64
+DEBUG util.py:537:  perl-libs-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  perl-Module-Pluggable-3.90-144.el6.x86_64
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64
+DEBUG util.py:537:  file-5.04-30.el6.x86_64
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  tar-1.23-15.el6_8.x86_64
+DEBUG util.py:537:  libarchive-2.8.3-7.el6_8.x86_64
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64
+DEBUG util.py:537:  dbus-libs-1.2.24-9.el6.x86_64
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64
+DEBUG util.py:537:  perl-version-0.77-144.el6.x86_64
+DEBUG util.py:537:  perl-Pod-Simple-3.13-144.el6.x86_64
+DEBUG util.py:537:  perl-5.10.1-144.el6.x86_64
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64
+DEBUG util.py:537:  make-3.81-23.el6.x86_64
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64
+DEBUG util.py:537:  less-436-13.el6.x86_64
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64
+DEBUG util.py:537:  shadow-utils-4.1.5.1-5.el6.x86_64
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64
+DEBUG util.py:537:  ethtool-3.5-6.el6.x86_64
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64
+DEBUG util.py:537:  which-2.19-6.el6.x86_64
+DEBUG util.py:537:  cmake-2.8.12.2-4.el6.x86_64
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-6-x86_64/root', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: rpm -qa --root '/var/lib/mock/centos-6-x86_64/root' --qf '%{nevra} %{buildtime} %{size} installed\n' with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell True
+DEBUG util.py:537:  libgcc-4.4.7-23.el6.x86_64 1529411436 117352 installed
+DEBUG util.py:537:  filesystem-2.4.30-3.el6.x86_64 1316778694 0 installed
+DEBUG util.py:537:  centos-release-6-10.el6.centos.12.3.x86_64 1530024761 38232 installed
+DEBUG util.py:537:  tzdata-2018e-3.el6.noarch 1525887704 1961609 installed
+DEBUG util.py:537:  glibc-common-2.12-1.212.el6.x86_64 1529414884 112436133 installed
+DEBUG util.py:537:  glibc-2.12-1.212.el6.x86_64 1529414884 13117447 installed
+DEBUG util.py:537:  bash-4.1.2-48.el6.x86_64 1490228240 3142529 installed
+DEBUG util.py:537:  libcap-2.16-5.5.el6.x86_64 1323288241 64437 installed
+DEBUG util.py:537:  info-4.13a-8.el6.x86_64 1282282228 329482 installed
+DEBUG util.py:537:  bzip2-libs-1.0.5-7.el6_0.x86_64 1308966355 67592 installed
+DEBUG util.py:537:  libstdc++-4.4.7-23.el6.x86_64 1529411436 987096 installed
+DEBUG util.py:537:  libacl-2.2.49-7.el6_9.1.x86_64 1503432844 31280 installed
+DEBUG util.py:537:  libsepol-2.0.41-4.el6.x86_64 1323280869 248680 installed
+DEBUG util.py:537:  sed-4.2.1-10.el6.x86_64 1340372521 542324 installed
+DEBUG util.py:537:  chkconfig-1.3.49.5-1.el6.x86_64 1462915139 670580 installed
+DEBUG util.py:537:  audit-libs-2.4.5-6.el6.x86_64 1490177147 235282 installed
+DEBUG util.py:537:  readline-6.0-4.el6.x86_64 1340348072 433957 installed
+DEBUG util.py:537:  file-libs-5.04-30.el6.x86_64 1462914182 2486624 installed
+DEBUG util.py:537:  libcom_err-1.41.12-24.el6.x86_64 1529422977 59233 installed
+DEBUG util.py:537:  libidn-1.18-2.el6.x86_64 1282611085 567612 installed
+DEBUG util.py:537:  expat-2.0.1-13.el6_8.x86_64 1480371682 197794 installed
+DEBUG util.py:537:  nss-softokn-3.14.3-23.3.el6_8.x86_64 1468337917 1103062 installed
+DEBUG util.py:537:  findutils-1:4.4.2-9.el6.x86_64 1456835167 1442912 installed
+DEBUG util.py:537:  pcre-7.8-7.el6.x86_64 1437691568 529027 installed
+DEBUG util.py:537:  diffutils-2.8.1-28.el6.x86_64 1289449745 588813 installed
+DEBUG util.py:537:  libtasn1-2.3-6.el6_5.x86_64 1401813432 443140 installed
+DEBUG util.py:537:  pkgconfig-1:0.23-9.1.el6.x86_64 1282188632 140091 installed
+DEBUG util.py:537:  libuuid-2.17.2-12.28.el6_9.2.x86_64 1516952480 16304 installed
+DEBUG util.py:537:  perl-Pod-Escapes-1:1.04-144.el6.x86_64 1490181147 21092 installed
+DEBUG util.py:537:  perl-libs-4:5.10.1-144.el6.x86_64 1490181147 1485896 installed
+DEBUG util.py:537:  perl-Module-Pluggable-1:3.90-144.el6.x86_64 1490181147 31033 installed
+DEBUG util.py:537:  libblkid-2.17.2-12.28.el6_9.2.x86_64 1516952480 136136 installed
+DEBUG util.py:537:  cpp-4.4.7-23.el6.x86_64 1529411436 10012603 installed
+DEBUG util.py:537:  libnih-1.0.1-8.el6.x86_64 1529422819 490926 installed
+DEBUG util.py:537:  file-5.04-30.el6.x86_64 1462914182 56567 installed
+DEBUG util.py:537:  elfutils-0.164-2.el6.x86_64 1462907151 677800 installed
+DEBUG util.py:537:  net-tools-1.60-114.el6.x86_64 1490140334 778260 installed
+DEBUG util.py:537:  libselinux-utils-2.0.94-7.el6.x86_64 1462921191 62739 installed
+DEBUG util.py:537:  patch-2.6-8.el6_9.x86_64 1525202714 179790 installed
+DEBUG util.py:537:  cloog-ppl-0.15.7-1.2.el6.x86_64 1289443171 185386 installed
+DEBUG util.py:537:  libusb-0.1.12-23.el6.x86_64 1282502667 54440 installed
+DEBUG util.py:537:  unzip-6.0-5.el6.x86_64 1490130549 331766 installed
+DEBUG util.py:537:  cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64 1427279058 357710 installed
+DEBUG util.py:537:  libgomp-4.4.7-23.el6.x86_64 1529411436 127982 installed
+DEBUG util.py:537:  gamin-0.1.10-9.el6.x86_64 1289462638 416440 installed
+DEBUG util.py:537:  shared-mime-info-0.70-6.el6.x86_64 1401183412 1411396 installed
+DEBUG util.py:537:  glibc-headers-2.12-1.212.el6.x86_64 1529414884 2146171 installed
+DEBUG util.py:537:  gcc-4.4.7-23.el6.x86_64 1529411436 19499265 installed
+DEBUG util.py:537:  groff-1.18.1.4-21.el6.x86_64 1289514233 5318766 installed
+DEBUG util.py:537:  coreutils-libs-8.4-47.el6.x86_64 1529421526 5576 installed
+DEBUG util.py:537:  cracklib-2.8.16-4.el6.x86_64 1308983950 187265 installed
+DEBUG util.py:537:  coreutils-8.4-47.el6.x86_64 1529421526 12873065 installed
+DEBUG util.py:537:  module-init-tools-3.9-26.el6.x86_64 1490157847 1216834 installed
+DEBUG util.py:537:  libpciaccess-0.13.4-1.el6.x86_64 1462930988 40777 installed
+DEBUG util.py:537:  ca-certificates-2018.2.22-65.1.el6.noarch 1529423501 2675229 installed
+DEBUG util.py:537:  nss-3.36.0-8.el6.x86_64 1529428667 2660886 installed
+DEBUG util.py:537:  nss-tools-3.36.0-8.el6.x86_64 1529428667 2052883 installed
+DEBUG util.py:537:  keyutils-libs-1.4-5.el6.x86_64 1413371285 36624 installed
+DEBUG util.py:537:  openssl-1.0.1e-57.el6.x86_64 1490219229 4248338 installed
+DEBUG util.py:537:  libcurl-7.19.7-53.el6_9.x86_64 1491228847 347536 installed
+DEBUG util.py:537:  rpm-libs-4.8.0-59.el6.x86_64 1529423780 777656 installed
+DEBUG util.py:537:  openldap-2.4.40-16.el6.x86_64 1490164288 859518 installed
+DEBUG util.py:537:  python-2.6.6-66.el6_8.x86_64 1471534159 79603 installed
+DEBUG util.py:537:  gdb-7.2-92.el6.x86_64 1490165883 5545845 installed
+DEBUG util.py:537:  libsemanage-2.0.43-5.1.el6.x86_64 1437701920 204223 installed
+DEBUG util.py:537:  libutempter-1.1.5-4.1.el6.x86_64 1282148042 40785 installed
+DEBUG util.py:537:  plymouth-core-libs-0.8.3-29.el6.centos.x86_64 1490151181 177760 installed
+DEBUG util.py:537:  mingetty-1.08-5.el6.x86_64 1316782496 34586 installed
+DEBUG util.py:537:  iptables-1.4.7-19.el6.x86_64 1529424501 861752 installed
+DEBUG util.py:537:  libdrm-2.4.65-2.el6.x86_64 1462926930 306787 installed
+DEBUG util.py:537:  plymouth-0.8.3-29.el6.centos.x86_64 1490151181 193924 installed
+DEBUG util.py:537:  initscripts-9.03.61-1.el6.centos.x86_64 1529424780 5735427 installed
+DEBUG util.py:537:  rpm-build-4.8.0-59.el6.x86_64 1529423780 323213 installed
+DEBUG util.py:537:  tar-2:1.23-15.el6_8.x86_64 1468339234 2616465 installed
+DEBUG util.py:537:  libarchive-2.8.3-7.el6_8.x86_64 1473695559 308503 installed
+DEBUG util.py:537:  gpg-pubkey-c105b9de-4e0fd3a3 1795025847 0 installed
+DEBUG util.py:537:  setup-2.8.14-23.el6.noarch 1490133393 666669 installed
+DEBUG util.py:537:  basesystem-10.0-4.el6.noarch 1289437977 0 installed
+DEBUG util.py:537:  kernel-headers-2.6.32-754.el6.x86_64 1529444607 2775673 installed
+DEBUG util.py:537:  ncurses-base-5.7-4.20090207.el6.x86_64 1426496042 193090 installed
+DEBUG util.py:537:  nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64 1468337917 490290 installed
+DEBUG util.py:537:  ncurses-libs-5.7-4.20090207.el6.x86_64 1426496042 752304 installed
+DEBUG util.py:537:  libattr-2.4.44-7.el6.x86_64 1316804040 18712 installed
+DEBUG util.py:537:  zlib-1.2.3-29.el6.x86_64 1361487737 152305 installed
+DEBUG util.py:537:  db4-4.7.25-22.el6.x86_64 1490145143 1533095 installed
+DEBUG util.py:537:  nspr-4.19.0-1.el6.x86_64 1529423378 281968 installed
+DEBUG util.py:537:  nss-util-3.36.0-1.el6.x86_64 1529423475 191928 installed
+DEBUG util.py:537:  gmp-4.3.1-13.el6.x86_64 1529422888 657883 installed
+DEBUG util.py:537:  libselinux-2.0.94-7.el6.x86_64 1462921191 130336 installed
+DEBUG util.py:537:  popt-1.13-7.el6.x86_64 1282368658 83420 installed
+DEBUG util.py:537:  xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64 1403168958 214490 installed
+DEBUG util.py:537:  elfutils-libelf-0.164-2.el6.x86_64 1462907151 1011166 installed
+DEBUG util.py:537:  gawk-3.1.7-10.el6_7.3.x86_64 1447147879 2038650 installed
+DEBUG util.py:537:  dbus-libs-1:1.2.24-9.el6.x86_64 1529424000 265736 installed
+DEBUG util.py:537:  lua-5.1.4-4.1.el6.x86_64 1282198547 617799 installed
+DEBUG util.py:537:  binutils-2.20.51.0.2-5.48.el6.x86_64 1529421431 9831289 installed
+DEBUG util.py:537:  sqlite-3.6.20-1.el6_7.2.x86_64 1439807128 640060 installed
+DEBUG util.py:537:  xz-4.999.9-0.5.beta.20091007git.el6.x86_64 1403168958 488160 installed
+DEBUG util.py:537:  mpfr-2.4.1-6.el6.x86_64 1289507426 377376 installed
+DEBUG util.py:537:  grep-2.20-6.el6.x86_64 1490143924 1197904 installed
+DEBUG util.py:537:  cpio-2.10-13.el6.x86_64 1490129964 650433 installed
+DEBUG util.py:537:  p11-kit-0.18.5-2.el6_5.2.x86_64 1390901794 262669 installed
+DEBUG util.py:537:  sysvinit-tools-2.87-6.dsf.el6.x86_64 1437690081 114115 installed
+DEBUG util.py:537:  gdbm-1.8.0-39.el6.x86_64 1462905685 48770 installed
+DEBUG util.py:537:  perl-version-3:0.77-144.el6.x86_64 1490181147 51960 installed
+DEBUG util.py:537:  perl-Pod-Simple-1:3.13-144.el6.x86_64 1490181147 476776 installed
+DEBUG util.py:537:  perl-4:5.10.1-144.el6.x86_64 1490181147 35282834 installed
+DEBUG util.py:537:  p11-kit-trust-0.18.5-2.el6_5.2.x86_64 1390901794 178775 installed
+DEBUG util.py:537:  xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64 1403168958 21146 installed
+DEBUG util.py:537:  upstart-0.6.5-17.el6.x86_64 1529422820 567729 installed
+DEBUG util.py:537:  elfutils-libs-0.164-2.el6.x86_64 1462907151 648199 installed
+DEBUG util.py:537:  psmisc-22.6-24.el6.x86_64 1490165337 222569 installed
+DEBUG util.py:537:  procps-3.2.8-45.el6_9.1.x86_64 1499873935 475510 installed
+DEBUG util.py:537:  checkpolicy-2.0.22-1.el6.x86_64 1289442710 870239 installed
+DEBUG util.py:537:  ppl-0.10.2-11.el6.x86_64 1289513391 4637284 installed
+DEBUG util.py:537:  libstdc++-devel-4.4.7-23.el6.x86_64 1529411436 9728819 installed
+DEBUG util.py:537:  bzip2-1.0.5-7.el6_0.x86_64 1308966355 79087 installed
+DEBUG util.py:537:  db4-utils-4.7.25-22.el6.x86_64 1490145143 416398 installed
+DEBUG util.py:537:  make-1:3.81-23.el6.x86_64 1462906471 1079569 installed
+DEBUG util.py:537:  libxml2-2.7.6-21.el6_8.1.x86_64 1466672006 1779163 installed
+DEBUG util.py:537:  glib2-2.28.8-10.el6.x86_64 1529422961 8061476 installed
+DEBUG util.py:537:  dbus-glib-0.86-6.el6.x86_64 1361921932 579611 installed
+DEBUG util.py:537:  glibc-devel-2.12-1.212.el6.x86_64 1529414884 990368 installed
+DEBUG util.py:537:  ncurses-5.7-4.20090207.el6.x86_64 1426496042 386371 installed
+DEBUG util.py:537:  less-436-13.el6.x86_64 1402918566 201909 installed
+DEBUG util.py:537:  gzip-1.3.12-24.el6.x86_64 1490130768 225924 installed
+DEBUG util.py:537:  cracklib-dicts-2.8.16-4.el6.x86_64 1308983950 9327207 installed
+DEBUG util.py:537:  pam-1.1.1-24.el6.x86_64 1490172992 2419646 installed
+DEBUG util.py:537:  hwdata-0.233-20.1.el6.noarch 1529425409 5894683 installed
+DEBUG util.py:537:  redhat-rpm-config-9.0.3-51.el6.centos.noarch 1462997794 138592 installed
+DEBUG util.py:537:  plymouth-scripts-0.8.3-29.el6.centos.x86_64 1490151181 11006 installed
+DEBUG util.py:537:  nss-sysinit-3.36.0-8.el6.x86_64 1529428667 32822 installed
+DEBUG util.py:537:  redhat-logos-60.0.14-12.el6.centos.noarch 1345112232 15816517 installed
+DEBUG util.py:537:  krb5-libs-1.10.3-65.el6.x86_64 1490162503 1813468 installed
+DEBUG util.py:537:  libssh2-1.4.2-2.el6_7.1.x86_64 1457594507 325165 installed
+DEBUG util.py:537:  curl-7.19.7-53.el6_9.x86_64 1491228847 357074 installed
+DEBUG util.py:537:  rpm-4.8.0-59.el6.x86_64 1529423780 2034245 installed
+DEBUG util.py:537:  libffi-3.0.5-3.2.el6.x86_64 1289507112 42881 installed
+DEBUG util.py:537:  python-libs-2.6.6-66.el6_8.x86_64 1471534159 22979382 installed
+DEBUG util.py:537:  ustr-1.0.4-9.1.el6.x86_64 1282143466 273983 installed
+DEBUG util.py:537:  shadow-utils-2:4.1.5.1-5.el6.x86_64 1462915419 3466724 installed
+DEBUG util.py:537:  MAKEDEV-3.24-6.el6.x86_64 1289425057 227290 installed
+DEBUG util.py:537:  ethtool-2:3.5-6.el6.x86_64 1437682668 283910 installed
+DEBUG util.py:537:  policycoreutils-2.0.83-30.1.el6_8.x86_64 1479483042 3596110 installed
+DEBUG util.py:537:  iproute-2.6.32-57.el6.x86_64 1529421320 963477 installed
+DEBUG util.py:537:  iputils-20071127-24.el6.x86_64 1490157987 297243 installed
+DEBUG util.py:537:  util-linux-ng-2.17.2-12.28.el6_9.2.x86_64 1516952480 6139437 installed
+DEBUG util.py:537:  udev-147-2.73.el6_8.2.x86_64 1473173519 1280842 installed
+DEBUG util.py:537:  gcc-c++-4.4.7-23.el6.x86_64 1529411436 11429003 installed
+DEBUG util.py:537:  which-2.19-6.el6.x86_64 1316774876 73004 installed
+DEBUG util.py:537:  cmake-2.8.12.2-4.el6.x86_64 1413341834 29654974 installed
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/lib/mock/centos-6-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG backend.py:763:  Copying packages to result dir
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64/root/root/mock-localrepo'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:200:  kill orphans in chroot /var/lib/mock/centos-6-x86_64-bootstrap/root
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64-bootstrap/root/root/mock-localrepo'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0
+DEBUG util.py:717:  child environment: None
+DEBUG util.py:636:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-6-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:688:  Child return code was: 0

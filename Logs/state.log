@@ -1,0 +1,22 @@
+2026-11-21 02:19:53,687 - Mock Version: 6.9
+2026-11-21 02:19:53,691 - Start(bootstrap): chroot init
+2026-11-21 02:19:53,696 - Start(bootstrap): cleaning package manager metadata
+2026-11-21 02:19:53,696 - Finish(bootstrap): cleaning package manager metadata
+2026-11-21 02:19:54,092 - Finish(bootstrap): chroot init
+2026-11-21 02:19:54,093 - Start: chroot init
+2026-11-21 02:19:54,097 - Start: unpacking root cache
+2026-11-21 02:19:56,037 - Finish: unpacking root cache
+2026-11-21 02:19:56,039 - Start: cleaning package manager metadata
+2026-11-21 02:19:56,041 - Finish: cleaning package manager metadata
+2026-11-21 02:19:56,516 - Start: yum update
+2026-11-21 02:19:59,443 - Finish: yum update
+2026-11-21 02:19:59,728 - Finish: chroot init
+2026-11-21 02:19:59,729 - Start: build phase for yajl-2.0.4-4.el8.src.rpm
+2026-11-21 02:19:59,730 - Start: build setup for yajl-2.0.4-4.el8.src.rpm
+2026-11-21 02:20:18,342 - Finish: build setup for yajl-2.0.4-4.el8.src.rpm
+2026-11-21 02:20:18,342 - Start: rpmbuild yajl-2.0.4-4.el8.src.rpm
+2026-11-21 02:20:18,345 - Start: Outputting list of installed packages
+2026-11-21 02:20:18,541 - Finish: Outputting list of installed packages
+2026-11-21 02:20:32,409 - Finish: rpmbuild yajl-2.0.4-4.el8.src.rpm
+2026-11-21 02:20:32,410 - Finish: build phase for yajl-2.0.4-4.el8.src.rpm
+2026-11-21 02:20:32,412 - Finish: run
